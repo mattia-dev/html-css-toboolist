@@ -13,10 +13,6 @@ header {
     background-color: white;
 }
 
-main {
-    height: 1000px;
-    background-color: #f6f8f9;
-}
 
 #logo-boolean {
     vertical-align: middle;
@@ -31,6 +27,11 @@ main {
     line-height: 76px;
 }
 
+main {
+    height: 1000px;
+    background-color: #f6f8f9;
+}
+
 .new-activity {
     background-color: white;
     margin: auto;
@@ -40,6 +41,7 @@ main {
     border-radius: 5px 5px 0px 0px;
 }
 
+/* add buttons */
 .button {
     padding: 5px 10px;
     border-radius: 5px;
@@ -69,6 +71,7 @@ main {
     padding-left: 50px;
 }
 
+/* list of tasks */
 .list {
     padding-top: 40px;
 }
@@ -85,6 +88,7 @@ li {
     padding-top: 10px;
 }
 
+/* symbols for "done" and "not done" */
 .symbol {
     display: inline-block;
     border: 3px solid;
@@ -106,6 +110,7 @@ li {
     border-color: red;
 }
 
+/* tasks' labels */
 .label {
     font-size: 10px;
     border-radius: 11px;
